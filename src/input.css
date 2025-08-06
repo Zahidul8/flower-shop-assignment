@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import "tailwindcss";
+
+@layer utilities {
+    .font-lato {
+          font-family: "Lato", sans-serif;
+    }
+    .max-width {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .icon-desc {
+        font-size: clamp(18px,4vw,22px);
+    }
+    .heading-font {
+        font-size: clamp(1.5rem, 6vw, 5rem);
+    }
+    .section-header {
+        font-size: clamp(1.5rem, 6vw,2.5rem);
+    }
+    .footer-header {
+        font-size: clamp(1.5rem, 6vw,3rem);
+
+    }
+   
+}
