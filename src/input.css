@@ -23,5 +23,8 @@
         font-size: clamp(1.5rem, 6vw,3rem);
 
     }
+    .bg-image {
+        background-image: url('/flower-asset/Rectangle-9.png');
+    }
    
 }

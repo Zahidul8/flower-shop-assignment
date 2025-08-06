@@ -5,8 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zahidul8/flower-shop-assignment.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zahidul8/flower-shop-assignment/issues"
+  },
+  "homepage": "https://github.com/Zahidul8/flower-shop-assignment#readme",
   "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",

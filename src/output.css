@@ -314,8 +314,14 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\.\.\/Flower\%20Asset\/Rectangle-9\.png\)\] {
-    background-image: url(../Flower%20Asset/Rectangle-9.png);
+  .bg-\[url\(\.\/flower-asset\/Rectangle-9\.png\)\] {
+    background-image: url(./flower-asset/Rectangle-9.png);
+  }
+  .bg-\[url\(\/flower-asset\/Rectangle-9\.png\)\] {
+    background-image: url(/flower-asset/Rectangle-9.png);
+  }
+  .bg-\[url\(flower-asset\/Rectangle-9\.png\)\] {
+    background-image: url(flower-asset/Rectangle-9.png);
   }
   .bg-cover {
     background-size: cover;
@@ -519,29 +525,9 @@
       gap: 80px;
     }
   }
-  .lg\:gap-\[100px\] {
-    @media (width >= 64rem) {
-      gap: 100px;
-    }
-  }
-  .lg\:px-\[1px\] {
-    @media (width >= 64rem) {
-      padding-inline: 1px;
-    }
-  }
-  .lg\:px-\[130px\] {
-    @media (width >= 64rem) {
-      padding-inline: 130px;
-    }
-  }
   .lg\:px-\[150px\] {
     @media (width >= 64rem) {
       padding-inline: 150px;
-    }
-  }
-  .lg\:px-\[175px\] {
-    @media (width >= 64rem) {
-      padding-inline: 175px;
     }
   }
 }
@@ -564,6 +550,9 @@
   }
   .footer-header {
     font-size: clamp(1.5rem, 6vw,3rem);
+  }
+  .bg-image {
+    background-image: url('/flower-asset/Rectangle-9.png');
   }
 }
 @property --tw-space-y-reverse {
